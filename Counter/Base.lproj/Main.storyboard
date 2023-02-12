@@ -31,9 +31,9 @@
                                     <action selector="tapButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="2O4-R8-cSD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D15-cK-wmB">
-                                <rect key="frame" x="78" y="99.999999999999986" width="260" height="169.66666666666663"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="142"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Значение счетчика: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D15-cK-wmB">
+                                <rect key="frame" x="77" y="203" width="260" height="26.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -46,7 +46,7 @@
                             <constraint firstItem="a8O-Hj-zlz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fbi-rY-9eU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="a8O-Hj-zlz" secondAttribute="bottom" constant="150" id="SCe-26-2uq"/>
                             <constraint firstItem="D15-cK-wmB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="78" id="j1F-8a-leh"/>
-                            <constraint firstItem="D15-cK-wmB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="yFw-QB-czk"/>
+                            <constraint firstItem="D15-cK-wmB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="yFw-QB-czk"/>
                         </constraints>
                     </view>
                     <connections>

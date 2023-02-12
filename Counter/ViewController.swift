@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     @IBAction func tapButton() {
         count += 1
-        Label.text = String(count)
+        Label.text = "Значение счетчика: \(count)"
     }
     
 
